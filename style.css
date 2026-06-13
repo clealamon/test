@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 75em;
+    margin: auto;
+}
+img {
+    width: 50em;
+}
+
+.pokemon-container{
+    display: flex;
+    flex: 0 0 1;
+}
+#pokemonSprite{
+    display: none;
+}
